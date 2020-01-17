@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="OpecvTest" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/OpecvTest" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="D:/OpenCV/opencv/build/include" />
+					<Add directory="D:/OpenCV/opencv/build/include/opencv2" />
+				</Compiler>
+				<Linker>
+					<Add library="D:/OpenCV/opencv/binaries/lib/libade.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_calib3d_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_calib3d401.dll.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_core_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_core401.dll.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_dnn_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_dnn401.dll.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_features2d_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_features2d401.dll.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_flann_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_flann401.dll.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_gapi_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_gapi401.dll.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_highgui_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_highgui401.dll.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_imgcodecs_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_imgcodecs401.dll.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_imgproc_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_imgproc401.dll.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_ml_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_ml401.dll.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_objdetect_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_objdetect401.dll.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_perf_calib3d_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_perf_core_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_perf_dnn_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_perf_features2d_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_perf_gapi_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_perf_imgcodecs_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_perf_imgproc_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_perf_objdetect_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_perf_photo_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_perf_stitching_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_perf_video_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_perf_videoio_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_photo_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_photo401.dll.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_stitching_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_stitching401.dll.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_test_calib3d_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_test_core_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_test_dnn_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_test_features2d_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_test_flann_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_test_gapi_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_test_highgui_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_test_imgcodecs_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_test_imgproc_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_test_ml_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_test_objdetect_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_test_photo_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_test_stitching_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_test_video_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_test_videoio_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_ts_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_ts401.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_video_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_video401.dll.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_videoio_pch_dephelp.a" />
+					<Add library="D:/OpenCV/opencv/binaries/lib/libopencv_videoio401.dll.a" />
+					<Add library="D:/OpenCV/opencv/build/x64/vc14/lib/opencv_world401.lib" />
+					<Add library="D:/OpenCV/opencv/build/x64/vc14/lib/opencv_world401d.lib" />
+					<Add directory="D:/OpenCV/opencv/build/x64/vc15/lib" />
+					<Add directory="D:/OpenCV/opencv/binaries/bin" />
+					<Add directory="D:/OpenCV/opencv/build/bin" />
+					<Add directory="D:/OpenCV/opencv/build/x64/vc14/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/OpecvTest" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="opencvDemo1.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
